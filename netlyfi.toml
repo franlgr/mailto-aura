@@ -3,7 +3,7 @@
   functions = "functions"
 
 [dev]
-  command = "node server.js"
+  command = "yarn start"
 [[redirects]]
   from = "/*"
   to = "/public/index.html"
