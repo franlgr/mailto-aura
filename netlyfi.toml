@@ -1,5 +1,5 @@
 [build]
-  command = "yarn run build"
+  command = "ls -l public"
   functions = "functions"
 
 [dev]
