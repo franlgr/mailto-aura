@@ -4,6 +4,7 @@
 
 [dev]
   command = "yarn start"
+    functions = "netlify/functions"
 [[redirects]]
   from = "/*"
   to = "/public/index.html"

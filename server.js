@@ -12,9 +12,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Iniciar el servidor solo si no estamos en un entorno de producción
-if (process.env.NODE_ENV !== 'production') {
-    app.listen(port, () => {
-        console.log(`Servidor Node.js escuchando en http://localhost:${port}`);
-    });
-}
+// Iniciar el servidor
+app.listen(port, () => {
+    console.log(`Servidor Node.js escuchando en http://localhost:${port}`);
+});
